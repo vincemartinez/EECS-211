@@ -1,0 +1,15 @@
+Student number: 1
+Average: 50
+Number of bad scores: 0
+
+Student number: 2
+No valid scores for this student.
+
+Student number: 3
+Average: 50
+Number of bad scores: 2
+
+Student number: 4
+No valid scores for this student.
+
+End of students.  Enter an integer to quit.
