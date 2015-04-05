@@ -46,22 +46,66 @@ int get_one_number(int src) {
 }
 
 int main() {
-    // Your variables go here.  Be sure to include an int called more.
-    
-    if(MODE==0) {
-        in_file.open("p1input.txt", ios::in);
-        if(in_file.fail()) {
-            cout << "Could not open input file.  Program terminating.\n\nEnter an integer to quit.";
-            cin >> more;
-            return 0;
-        }
-    }
-    
-    
+	// Your variables go here.  Be sure to include an int called more.
+	int more = 0;
+	int number_of_exams = 0;
+	int student_number = 1;
+	int total_scores=0;
+	int reading=0;
+	int average=0;
+	int invalid_scores=0;
+	int GradeRead = 1;
+	int ThisStudent = 1;
+
+
+	if (MODE == 0) {
+		in_file.open("p1input.txt", ios::in);
+		if (in_file.fail()) {
+			cout << "Could not open input file.  Program terminating.\n\nEnter an integer to quit.";
+			cin >> more;
+			return 0;
+		}
+	}
+
+	while (GradeRead){
+
+		number_of_exams = get_one_number(MODE);
+
+		while (ThisStudent){
+			
+			reading = get_one_number(MODE);
+
+			if (reading == -1){
+				average = total_scores / number_of_exams;
+				//print statements
+				ThisStudent = !ThisStudent;
+			}
+
+			if (reading < 0 || reading>100){
+				reading = 0;
+				number_of_exams--;
+				invalid_scores++;
+			}
+
+			if (reading == -2){
+				cout << "End of students.  Enter an integer to quit.";
+				cin >> more;
+				ThisStudent = !ThisStudent;
+				GradeRead = !GradeRead;
+			}
+
+			total_scores += reading;
+
+		}
+
+		student_number++;
+
+	}
+
+			
+
     // The rest of your code goes here.
     
-    cout << "End of students.  Enter an integer to quit.";
-    cin >> more;
     
     return 0;
 }
