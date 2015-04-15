@@ -1,0 +1,37 @@
+13 is prime.
+
+47 is prime.
+
+49 is not prime.
+
+Can't tell if 169 is prime or not.
+
+The 0th prime is 2
+The 1th prime is 3
+The 2th prime is 5
+The 3th prime is 7
+The 4th prime is 11
+The 5th prime is 13
+The 6th prime is 17
+The 7th prime is 19
+The 8th prime is 23
+The 9th prime is 29
+The 10th prime is 31
+The 11th prime is 37
+The 12th prime is 41
+The 13th prime is 43
+The 14th prime is 47
+The 15th prime is 53
+The 16th prime is 59
+The 17th prime is 61
+The 18th prime is 67
+The 19th prime is 71
+
+
+The prime factors of 98 are: 2 7 7 
+
+The prime factors of 5043 are: 3 41 41 
+
+The prime factors of 256 are: 2 2 2 2 2 2 2 2 
+
+The prime factors of 98765 are: 5 

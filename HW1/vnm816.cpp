@@ -18,7 +18,7 @@ using namespace std;
 
 // Set the following constant to 1 for input from the keyboard,
 // 0 for input from file.
-const int MODE = 1;
+const int MODE = 0;
 
 // This is the input file for when MODE is 0.
 //   It is declared at the file level becuase it is
@@ -98,6 +98,7 @@ int main() {
 				if (number_of_exams == 0 || valid_scores == 0){
 					cout << "Student number: " << student_number << endl;
 					cout << "No valid scores for this student." << endl;
+					cout << endl;
 					ThisStudent = !ThisStudent;
 				}
 
