@@ -67,8 +67,6 @@ void genPrimes(int pr[], int nump) {
 
 	}
 
-	cout << "Primes generated." << endl;
-
 	return;
 }
 
@@ -112,7 +110,7 @@ void genPrimeFactors(int pr[], int pf[], int nump, int x) {
 
 		else pf[k] = 0;
 
-		cout << pf[k];
+		//cout << pf[k];
 	}
 
 	return;
@@ -128,6 +126,26 @@ void genPrimeFactors(int pr[], int pf[], int nump, int x) {
 */
 void displayPrimeFactors(int pr[], int pf[], int nump, int x) {
 	//write your code here
+	int i = 0;
+	int j = 0;
+
+	cout << "The prime factors of " << x << " are:";
+
+	for (i = 0; i < nump; i++) {
+
+		if (pf[i] != 0) {
+
+
+			for (j = 0; j < pf[i]; j++) {
+				cout << " " << pr[i];
+			}
+
+		}
+
+	}
+
+	cout << " \n\n";
+
 	return;
 }
 
@@ -182,14 +200,14 @@ int main() {
 	cout << "\n\n";
 
 	//  Test genPrimeFactors and displayPrimeFactors
-	//genPrimeFactors(primes, primeFactors, numberOfPrimes, 98);
-	//displayPrimeFactors(primes, primeFactors, numberOfPrimes, 98);
-	//genPrimeFactors(primes, primeFactors, numberOfPrimes, 5043);
-	//displayPrimeFactors(primes, primeFactors, numberOfPrimes, 5043);
-	//genPrimeFactors(primes, primeFactors, numberOfPrimes, 256);
-	//displayPrimeFactors(primes, primeFactors, numberOfPrimes, 256);
-	//genPrimeFactors(primes, primeFactors, numberOfPrimes, 98765);
-	//displayPrimeFactors(primes, primeFactors, numberOfPrimes, 98765);
+	genPrimeFactors(primes, primeFactors, numberOfPrimes, 98);
+	displayPrimeFactors(primes, primeFactors, numberOfPrimes, 98);
+	genPrimeFactors(primes, primeFactors, numberOfPrimes, 5043);
+	displayPrimeFactors(primes, primeFactors, numberOfPrimes, 5043);
+	genPrimeFactors(primes, primeFactors, numberOfPrimes, 256);
+	displayPrimeFactors(primes, primeFactors, numberOfPrimes, 256);
+	genPrimeFactors(primes, primeFactors, numberOfPrimes, 98765);
+	displayPrimeFactors(primes, primeFactors, numberOfPrimes, 98765);
 	
 	return 0;
 }
