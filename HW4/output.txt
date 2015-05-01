@@ -1,0 +1,12 @@
+Line Number: 1
+Number of tokens: 5
+token: create_computer	token: laptop	token: lp2	token: 2000	token: 4	
+Line Number: 2
+Number of tokens: 4
+token: datagram	token: 1.2.3.4	token: 255.255.0.1	token: Dear Mom and Dad	
+Line Number: 3
+Number of tokens: 3
+token: a	token: b   c	token: d	
+Line Number: 4
+Number of tokens: 1
+token: halt	
