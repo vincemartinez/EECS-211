@@ -1,0 +1,52 @@
+﻿Build started 5/19/2015 8:16:50 PM.
+     1>Project "C:\Users\Vince\Documents\GitHub\EECS-211\HW6\HW6\HW6\HW6.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\main.cpp
+         main.cpp
+     1>c:\users\vince\documents\github\eecs-211\hw6\main.cpp(105): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(42) : definition of 'i' ignored
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(16) : definition of 'i' used
+     1>c:\users\vince\documents\github\eecs-211\hw6\main.cpp(107): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(42) : definition of 'i' ignored
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(16) : definition of 'i' used
+     1>c:\users\vince\documents\github\eecs-211\hw6\main.cpp(110): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(42) : definition of 'i' ignored
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(16) : definition of 'i' used
+     1>c:\users\vince\documents\github\eecs-211\hw6\main.cpp(111): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(42) : definition of 'i' ignored
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(16) : definition of 'i' used
+     1>c:\users\vince\documents\github\eecs-211\hw6\main.cpp(139): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(42) : definition of 'i' ignored
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(16) : definition of 'i' used
+     1>c:\users\vince\documents\github\eecs-211\hw6\main.cpp(141): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(42) : definition of 'i' ignored
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(16) : definition of 'i' used
+     1>c:\users\vince\documents\github\eecs-211\hw6\main.cpp(144): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(42) : definition of 'i' ignored
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(16) : definition of 'i' used
+     1>c:\users\vince\documents\github\eecs-211\hw6\main.cpp(145): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(42) : definition of 'i' ignored
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(16) : definition of 'i' used
+     1>c:\users\vince\documents\github\eecs-211\hw6\main.cpp(173): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(42) : definition of 'i' ignored
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(16) : definition of 'i' used
+     1>c:\users\vince\documents\github\eecs-211\hw6\main.cpp(175): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(42) : definition of 'i' ignored
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(16) : definition of 'i' used
+     1>c:\users\vince\documents\github\eecs-211\hw6\main.cpp(178): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(42) : definition of 'i' ignored
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(16) : definition of 'i' used
+     1>c:\users\vince\documents\github\eecs-211\hw6\main.cpp(179): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(42) : definition of 'i' ignored
+                 c:\users\vince\documents\github\eecs-211\hw6\main.cpp(16) : definition of 'i' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Vince\Documents\GitHub\EECS-211\HW6\HW6\Debug\HW6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Vince\Documents\GitHub\EECS-211\HW6\HW6\Debug\HW6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Vince\Documents\GitHub\EECS-211\HW6\HW6\Debug\HW6.lib" /MACHINE:X86 Debug\datagram.obj
+         Debug\machines.obj
+         Debug\main.obj
+         Debug\system_utilities.obj
+         HW6.vcxproj -> C:\Users\Vince\Documents\GitHub\EECS-211\HW6\HW6\Debug\HW6.exe
+     1>Done Building Project "C:\Users\Vince\Documents\GitHub\EECS-211\HW6\HW6\HW6\HW6.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.13

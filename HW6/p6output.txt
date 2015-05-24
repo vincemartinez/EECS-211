@@ -1,0 +1,276 @@
+Number of tokens: 2
+token: destroy_machine	token: 1.2.3.4	
+** Command DESTROY_MACHINE recognized
+  ***ERROR:  Machine with this IP address not found.
+Press ENTER to continue:
+Number of tokens: 4
+token: datagram	token: 1.2.3.4	token: 5.6.7.8	token: Message1	
+** Command DATAGRAM recognized
+  ***ERROR:  Machine with this IP address not found.
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+End of network.
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: laptop	token: lp1	token: 194.17.60.1	
+** Command CREATE_MACHINE recognized
+Laptop computer:     Name: lp1   IP address: 194.17.60.1
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: server	token: s1	token: 194.15.60.128	
+** Command CREATE_MACHINE recognized
+Server computer:     Name: s1   IP address: 194.15.60.128
+   Connections to laptops: List is empty.
+   Connections to WANs:    List is empty.
+
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 194.17.60.1
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Server computer:     Name: s1   IP address: 194.15.60.128
+   Connections to laptops: List is empty.
+   Connections to WANs:    List is empty.
+
+End of network.
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: dummy	token: n3	token: 255.255.255.1	
+** Command CREATE_MACHINE recognized
+
+  ***ERROR:  Unknown machine type.  No machine created.
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 194.17.60.1
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Server computer:     Name: s1   IP address: 194.15.60.128
+   Connections to laptops: List is empty.
+   Connections to WANs:    List is empty.
+
+End of network.
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: laptop	token: lp2	token: 14.15.16.17	
+** Command CREATE_MACHINE recognized
+Laptop computer:     Name: lp2   IP address: 14.15.16.17
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: wan	token: w1	token: 1.1.1.127	
+** Command CREATE_MACHINE recognized
+WAN computer:     Name: w1   IP address: 1.1.1.127
+   Connections to laptops: List is empty.
+   Connections to WANs:    List is empty.
+
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 194.17.60.1
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Server computer:     Name: s1   IP address: 194.15.60.128
+   Connections to laptops: List is empty.
+   Connections to WANs:    List is empty.
+
+Laptop computer:     Name: lp2   IP address: 14.15.16.17
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+WAN computer:     Name: w1   IP address: 1.1.1.127
+   Connections to laptops: List is empty.
+   Connections to WANs:    List is empty.
+
+End of network.
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: laptop	token: lp3	token: 20.21.22.23	
+** Command CREATE_MACHINE recognized
+Laptop computer:     Name: lp3   IP address: 20.21.22.23
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 194.17.60.1
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Server computer:     Name: s1   IP address: 194.15.60.128
+   Connections to laptops: List is empty.
+   Connections to WANs:    List is empty.
+
+Laptop computer:     Name: lp2   IP address: 14.15.16.17
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+WAN computer:     Name: w1   IP address: 1.1.1.127
+   Connections to laptops: List is empty.
+   Connections to WANs:    List is empty.
+
+Laptop computer:     Name: lp3   IP address: 20.21.22.23
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+End of network.
+Press ENTER to continue:
+Number of tokens: 2
+token: destroy_machine	token: 255.255.255.1	
+** Command DESTROY_MACHINE recognized
+  ***ERROR:  Machine with this IP address not found.
+Press ENTER to continue:
+Number of tokens: 2
+token: destroy_machine	token: 1.1.1.127	
+** Command DESTROY_MACHINE recognized
+Computer removed from the network.
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 194.17.60.1
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Server computer:     Name: s1   IP address: 194.15.60.128
+   Connections to laptops: List is empty.
+   Connections to WANs:    List is empty.
+
+Laptop computer:     Name: lp2   IP address: 14.15.16.17
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Laptop computer:     Name: lp3   IP address: 20.21.22.23
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+End of network.
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: wan	token: w2	token: 1.1.1.126	
+** Command CREATE_MACHINE recognized
+WAN computer:     Name: w2   IP address: 1.1.1.126
+   Connections to laptops: List is empty.
+   Connections to WANs:    List is empty.
+
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 194.17.60.1
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Server computer:     Name: s1   IP address: 194.15.60.128
+   Connections to laptops: List is empty.
+   Connections to WANs:    List is empty.
+
+Laptop computer:     Name: lp2   IP address: 14.15.16.17
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+WAN computer:     Name: w2   IP address: 1.1.1.126
+   Connections to laptops: List is empty.
+   Connections to WANs:    List is empty.
+
+Laptop computer:     Name: lp3   IP address: 20.21.22.23
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+End of network.
+Press ENTER to continue:
+Number of tokens: 4
+token: datagram	token: 194.17.60.1	token: 5.6.7.8	token: Message1	
+** Command DATAGRAM recognized
+SOURCE: 194.17.60.1
+DESTINATION: 5.6.7.8
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+Press ENTER to continue:
+Number of tokens: 4
+token: datagram	token: 14.15.16.17	token: 5.6.7.8	token: Message2	
+** Command DATAGRAM recognized
+SOURCE: 14.15.16.17
+DESTINATION: 5.6.7.8
+LENGTH: 8
+MESSAGE: "Message2"
+
+
+Press ENTER to continue:
+Number of tokens: 4
+token: datagram	token: 5.5.5.5	token: 5.6.7.8	token: Message3	
+** Command DATAGRAM recognized
+  ***ERROR:  Machine with this IP address not found.
+Press ENTER to continue:
+Number of tokens: 2
+token: destroy_machine	token: 1.1.1.126	
+** Command DESTROY_MACHINE recognized
+Computer removed from the network.
+Press ENTER to continue:
+Number of tokens: 2
+token: destroy_machine	token: 194.15.60.128	
+** Command DESTROY_MACHINE recognized
+Computer removed from the network.
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 194.17.60.1
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  
+SOURCE: 194.17.60.1
+DESTINATION: 5.6.7.8
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+Laptop computer:     Name: lp2   IP address: 14.15.16.17
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  
+SOURCE: 14.15.16.17
+DESTINATION: 5.6.7.8
+LENGTH: 8
+MESSAGE: "Message2"
+
+
+Laptop computer:     Name: lp3   IP address: 20.21.22.23
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+End of network.
+Press ENTER to continue:
+Number of tokens: 2
+token: destroy_machine	token: 194.17.60.1	
+** Command DESTROY_MACHINE recognized
+Computer removed from the network.
+Press ENTER to continue:
+Number of tokens: 2
+token: destroy_machine	token: 14.15.16.17	
+** Command DESTROY_MACHINE recognized
+Computer removed from the network.
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp3   IP address: 20.21.22.23
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+End of network.
+Press ENTER to continue:
+Number of tokens: 1
+token: halt	
+** Command HALT recognized
+Press ENTER to continue:
+That's all, folks.
+
+Program ended with exit code: 0

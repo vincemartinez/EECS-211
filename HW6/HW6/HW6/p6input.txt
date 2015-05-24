@@ -1,0 +1,28 @@
+destroy_machine  1.2.3.4
+datagram   1.2.3.4   5.6.7.8   Message1
+system_status
+create_machine  laptop  lp1   194.17.60.1
+create_machine  server  s1    194.15.60.128
+system_status
+create_machine  dummy  n3   255.255.255.1
+system_status
+create_machine  laptop  lp2  14.15.16.17
+create_machine  wan     w1   1.1.1.127
+system_status
+create_machine  laptop  lp3   20.21.22.23
+system_status
+destroy_machine 255.255.255.1
+destroy_machine 1.1.1.127
+system_status
+create_machine  wan  w2  1.1.1.126
+system_status
+datagram   194.17.60.1   5.6.7.8   Message1
+datagram   14.15.16.17   5.6.7.8   Message2
+datagram   5.5.5.5       5.6.7.8   Message3
+destroy_machine   1.1.1.126
+destroy_machine   194.15.60.128
+system_status
+destroy_machine   194.17.60.1
+destroy_machine   14.15.16.17
+system_status
+halt
