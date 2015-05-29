@@ -1,0 +1,916 @@
+Number of tokens: 4
+token: create_machine	token: laptop	token: lp1	token: 194.17.60.1	
+** Command CREATE_MACHINE recognized
+Laptop computer:     Name: lp1   IP address: 194.17.60.1
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: server	token: s1	token: 194.15.60.128	
+** Command CREATE_MACHINE recognized
+Server computer:     Name: s1   IP address: 194.15.60.128
+   Connections to laptops:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 194.17.60.1
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Server computer:     Name: s1   IP address: 194.15.60.128
+   Connections to laptops:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+End of network.
+
+Press ENTER to continue:
+Number of tokens: 4
+token: datagram	token: 194.17.60.1	token: 5.6.7.8	token: Message1	
+** Command DATAGRAM recognized
+SOURCE: 194.17.60.1
+DESTINATION: 5.6.7.8
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+
+Press ENTER to continue:
+Number of tokens: 1
+token: time_click	
+** Command TIME_CLICK recognized
+
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 194.17.60.1
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  
+SOURCE: 194.17.60.1
+DESTINATION: 5.6.7.8
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+Server computer:     Name: s1   IP address: 194.15.60.128
+   Connections to laptops:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+End of network.
+
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 194.17.60.1	token: 194.15.60.128	
+** Command CONNECT recognized
+
+Press ENTER to continue:
+Number of tokens: 1
+token: time_click	
+** Command TIME_CLICK recognized
+
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 194.17.60.1
+Connected to 194.15.60.128
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Server computer:     Name: s1   IP address: 194.15.60.128
+   Connections to laptops: 
+      Laptop 1:   194.17.60.1
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+Datagram 1:  
+SOURCE: 194.17.60.1
+DESTINATION: 5.6.7.8
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+
+
+
+End of network.
+
+Press ENTER to continue:
+Number of tokens: 4
+token: datagram	token: 194.17.60.1	token: 14.15.16.17	token: Message2	
+** Command DATAGRAM recognized
+SOURCE: 194.17.60.1
+DESTINATION: 14.15.16.17
+LENGTH: 8
+MESSAGE: "Message2"
+
+
+
+Press ENTER to continue:
+Number of tokens: 1
+token: time_click	
+** Command TIME_CLICK recognized
+
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 194.17.60.1
+Connected to 194.15.60.128
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Server computer:     Name: s1   IP address: 194.15.60.128
+   Connections to laptops: 
+      Laptop 1:   194.17.60.1
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+Datagram 1:  
+SOURCE: 194.17.60.1
+DESTINATION: 5.6.7.8
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+Datagram 2:  
+SOURCE: 194.17.60.1
+DESTINATION: 14.15.16.17
+LENGTH: 8
+MESSAGE: "Message2"
+
+
+
+
+
+End of network.
+
+Press ENTER to continue:
+Number of tokens: 4
+token: datagram	token: 194.17.60.1	token: 100.100.99.99	token: Message3	
+** Command DATAGRAM recognized
+SOURCE: 194.17.60.1
+DESTINATION: 100.100.99.99
+LENGTH: 8
+MESSAGE: "Message3"
+
+
+
+Press ENTER to continue:
+Number of tokens: 1
+token: time_click	
+** Command TIME_CLICK recognized
+
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 194.17.60.1
+Connected to 194.15.60.128
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Server computer:     Name: s1   IP address: 194.15.60.128
+   Connections to laptops: 
+      Laptop 1:   194.17.60.1
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+Datagram 1:  
+SOURCE: 194.17.60.1
+DESTINATION: 5.6.7.8
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+Datagram 2:  
+SOURCE: 194.17.60.1
+DESTINATION: 14.15.16.17
+LENGTH: 8
+MESSAGE: "Message2"
+
+
+Datagram 3:  
+SOURCE: 194.17.60.1
+DESTINATION: 100.100.99.99
+LENGTH: 8
+MESSAGE: "Message3"
+
+
+
+
+
+End of network.
+
+Press ENTER to continue:
+Number of tokens: 4
+token: datagram	token: 194.17.60.1	token: 1.2.3.4	token: Message4	
+** Command DATAGRAM recognized
+SOURCE: 194.17.60.1
+DESTINATION: 1.2.3.4
+LENGTH: 8
+MESSAGE: "Message4"
+
+
+
+Press ENTER to continue:
+Number of tokens: 1
+token: time_click	
+** Command TIME_CLICK recognized
+
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 194.17.60.1
+Connected to 194.15.60.128
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Server computer:     Name: s1   IP address: 194.15.60.128
+   Connections to laptops: 
+      Laptop 1:   194.17.60.1
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+Datagram 1:  
+SOURCE: 194.17.60.1
+DESTINATION: 5.6.7.8
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+Datagram 2:  
+SOURCE: 194.17.60.1
+DESTINATION: 14.15.16.17
+LENGTH: 8
+MESSAGE: "Message2"
+
+
+Datagram 3:  
+SOURCE: 194.17.60.1
+DESTINATION: 100.100.99.99
+LENGTH: 8
+MESSAGE: "Message3"
+
+
+Datagram 4:  
+SOURCE: 194.17.60.1
+DESTINATION: 1.2.3.4
+LENGTH: 8
+MESSAGE: "Message4"
+
+
+
+
+
+End of network.
+
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 194.17.60.1	token: 1.2.3.4	
+** Command CONNECT recognized
+
+  ***ERROR:  Machine with this IP address not found.
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 1.2.3.4	token: 194.15.60.128	
+** Command CONNECT recognized
+
+  ***ERROR:  Machine with this IP address not found.
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 194.17.60.300	token: 194.15.60.128	
+** Command CONNECT recognized
+
+  ***ERROR:  Bad IP address.
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 194.17.60.1	token: 194.300.60.128	
+** Command CONNECT recognized
+
+  ***ERROR:  Bad IP address.
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 194.17.60.1
+Connected to 194.15.60.128
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Server computer:     Name: s1   IP address: 194.15.60.128
+   Connections to laptops: 
+      Laptop 1:   194.17.60.1
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+Datagram 1:  
+SOURCE: 194.17.60.1
+DESTINATION: 5.6.7.8
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+Datagram 2:  
+SOURCE: 194.17.60.1
+DESTINATION: 14.15.16.17
+LENGTH: 8
+MESSAGE: "Message2"
+
+
+Datagram 3:  
+SOURCE: 194.17.60.1
+DESTINATION: 100.100.99.99
+LENGTH: 8
+MESSAGE: "Message3"
+
+
+Datagram 4:  
+SOURCE: 194.17.60.1
+DESTINATION: 1.2.3.4
+LENGTH: 8
+MESSAGE: "Message4"
+
+
+
+
+
+End of network.
+
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: server	token: s1	token: 1.2.3.4	
+** Command CREATE_MACHINE recognized
+Server computer:     Name: s1   IP address: 1.2.3.4
+   Connections to laptops:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 194.17.60.1	token: 1.2.3.4	
+** Command CONNECT recognized
+
+  ***ERROR:  The connection was refused.  The network is not changed
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 194.17.60.1
+Connected to 194.15.60.128
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Server computer:     Name: s1   IP address: 194.15.60.128
+   Connections to laptops: 
+      Laptop 1:   194.17.60.1
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+Datagram 1:  
+SOURCE: 194.17.60.1
+DESTINATION: 5.6.7.8
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+Datagram 2:  
+SOURCE: 194.17.60.1
+DESTINATION: 14.15.16.17
+LENGTH: 8
+MESSAGE: "Message2"
+
+
+Datagram 3:  
+SOURCE: 194.17.60.1
+DESTINATION: 100.100.99.99
+LENGTH: 8
+MESSAGE: "Message3"
+
+
+Datagram 4:  
+SOURCE: 194.17.60.1
+DESTINATION: 1.2.3.4
+LENGTH: 8
+MESSAGE: "Message4"
+
+
+
+
+
+Server computer:     Name: s1   IP address: 1.2.3.4
+   Connections to laptops:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+End of network.
+
+Press ENTER to continue:
+Number of tokens: 2
+token: destroy_machine	token: 1.2.3.4	
+** Command DESTROY_MACHINE recognized
+Computer removed from the network.
+
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: laptop	token: lp2	token: 194.17.60.2	
+** Command CREATE_MACHINE recognized
+Laptop computer:     Name: lp2   IP address: 194.17.60.2
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: laptop	token: lp3	token: 194.17.60.3	
+** Command CREATE_MACHINE recognized
+Laptop computer:     Name: lp3   IP address: 194.17.60.3
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: laptop	token: lp4	token: 194.17.60.4	
+** Command CREATE_MACHINE recognized
+Laptop computer:     Name: lp4   IP address: 194.17.60.4
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: laptop	token: lp5	token: 194.17.60.5	
+** Command CREATE_MACHINE recognized
+Laptop computer:     Name: lp5   IP address: 194.17.60.5
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: laptop	token: lp6	token: 194.17.60.6	
+** Command CREATE_MACHINE recognized
+Laptop computer:     Name: lp6   IP address: 194.17.60.6
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: laptop	token: lp7	token: 194.17.60.7	
+** Command CREATE_MACHINE recognized
+Laptop computer:     Name: lp7   IP address: 194.17.60.7
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: laptop	token: lp8	token: 194.17.60.8	
+** Command CREATE_MACHINE recognized
+Laptop computer:     Name: lp8   IP address: 194.17.60.8
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: laptop	token: lp9	token: 194.17.60.9	
+** Command CREATE_MACHINE recognized
+Laptop computer:     Name: lp9   IP address: 194.17.60.9
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 194.17.60.2	token: 194.15.60.128	
+** Command CONNECT recognized
+
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 194.17.60.3	token: 194.15.60.128	
+** Command CONNECT recognized
+
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 194.17.60.4	token: 194.15.60.128	
+** Command CONNECT recognized
+
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 194.17.60.5	token: 194.15.60.128	
+** Command CONNECT recognized
+
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 194.17.60.6	token: 194.15.60.128	
+** Command CONNECT recognized
+
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 194.17.60.7	token: 194.15.60.128	
+** Command CONNECT recognized
+
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 194.17.60.8	token: 194.15.60.128	
+** Command CONNECT recognized
+
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 194.17.60.9	token: 194.15.60.128	
+** Command CONNECT recognized
+
+  ***ERROR:  The connection was refused.  The network is not changed
+Press ENTER to continue:
+Number of tokens: 2
+token: destroy_machine	token: 194.17.60.2	
+** Command DESTROY_MACHINE recognized
+Computer removed from the network.
+
+Press ENTER to continue:
+Number of tokens: 2
+token: destroy_machine	token: 194.17.60.3	
+** Command DESTROY_MACHINE recognized
+Computer removed from the network.
+
+Press ENTER to continue:
+Number of tokens: 2
+token: destroy_machine	token: 194.17.60.4	
+** Command DESTROY_MACHINE recognized
+Computer removed from the network.
+
+Press ENTER to continue:
+Number of tokens: 2
+token: destroy_machine	token: 194.17.60.5	
+** Command DESTROY_MACHINE recognized
+Computer removed from the network.
+
+Press ENTER to continue:
+Number of tokens: 2
+token: destroy_machine	token: 194.17.60.6	
+** Command DESTROY_MACHINE recognized
+Computer removed from the network.
+
+Press ENTER to continue:
+Number of tokens: 2
+token: destroy_machine	token: 194.17.60.7	
+** Command DESTROY_MACHINE recognized
+Computer removed from the network.
+
+Press ENTER to continue:
+Number of tokens: 2
+token: destroy_machine	token: 194.17.60.8	
+** Command DESTROY_MACHINE recognized
+Computer removed from the network.
+
+Press ENTER to continue:
+Number of tokens: 2
+token: destroy_machine	token: 194.17.60.9	
+** Command DESTROY_MACHINE recognized
+Computer removed from the network.
+
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 194.17.60.1
+Connected to 194.15.60.128
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Server computer:     Name: s1   IP address: 194.15.60.128
+   Connections to laptops: 
+      Laptop 1:   194.17.60.1
+      Laptop 2:   194.17.60.2
+      Laptop 3:   194.17.60.3
+      Laptop 4:   194.17.60.4
+      Laptop 5:   194.17.60.5
+      Laptop 6:   194.17.60.6
+      Laptop 7:   194.17.60.7
+      Laptop 8:   194.17.60.8
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+Datagram 1:  
+SOURCE: 194.17.60.1
+DESTINATION: 5.6.7.8
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+Datagram 2:  
+SOURCE: 194.17.60.1
+DESTINATION: 14.15.16.17
+LENGTH: 8
+MESSAGE: "Message2"
+
+
+Datagram 3:  
+SOURCE: 194.17.60.1
+DESTINATION: 100.100.99.99
+LENGTH: 8
+MESSAGE: "Message3"
+
+
+Datagram 4:  
+SOURCE: 194.17.60.1
+DESTINATION: 1.2.3.4
+LENGTH: 8
+MESSAGE: "Message4"
+
+
+
+
+
+End of network.
+
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: wan	token: w2	token: 1.1.1.125	
+** Command CREATE_MACHINE recognized
+WAN computer:     Name: w2   IP address: 1.1.1.125
+   Connections to servers:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: wan	token: w3	token: 1.1.1.126	
+** Command CREATE_MACHINE recognized
+WAN computer:     Name: w3   IP address: 1.1.1.126
+   Connections to servers:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: wan	token: w4	token: 1.1.1.127	
+** Command CREATE_MACHINE recognized
+WAN computer:     Name: w4   IP address: 1.1.1.127
+   Connections to servers:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: wan	token: w5	token: 1.1.1.128	
+** Command CREATE_MACHINE recognized
+WAN computer:     Name: w5   IP address: 1.1.1.128
+   Connections to servers:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: wan	token: w6	token: 1.1.1.129	
+** Command CREATE_MACHINE recognized
+WAN computer:     Name: w6   IP address: 1.1.1.129
+   Connections to servers:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 194.15.60.128	token: 1.1.1.125	
+** Command CONNECT recognized
+
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 194.15.60.128	token: 1.1.1.126	
+** Command CONNECT recognized
+
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 194.15.60.128	token: 1.1.1.127	
+** Command CONNECT recognized
+
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 194.15.60.128	token: 1.1.1.128	
+** Command CONNECT recognized
+
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 194.15.60.128	token: 1.1.1.129	
+** Command CONNECT recognized
+
+  ***ERROR:  The connection was refused.  The network is not changed
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 194.17.60.1
+Connected to 194.15.60.128
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Server computer:     Name: s1   IP address: 194.15.60.128
+   Connections to laptops: 
+      Laptop 1:   194.17.60.1
+      Laptop 2:   194.17.60.2
+      Laptop 3:   194.17.60.3
+      Laptop 4:   194.17.60.4
+      Laptop 5:   194.17.60.5
+      Laptop 6:   194.17.60.6
+      Laptop 7:   194.17.60.7
+      Laptop 8:   194.17.60.8
+
+   Connections to WANs:    
+         WAN 1:   1.1.1.125
+         WAN 2:   1.1.1.126
+         WAN 3:   1.1.1.127
+         WAN 4:   1.1.1.128
+
+   Message list:
+Datagram 1:  
+SOURCE: 194.17.60.1
+DESTINATION: 5.6.7.8
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+Datagram 2:  
+SOURCE: 194.17.60.1
+DESTINATION: 14.15.16.17
+LENGTH: 8
+MESSAGE: "Message2"
+
+
+Datagram 3:  
+SOURCE: 194.17.60.1
+DESTINATION: 100.100.99.99
+LENGTH: 8
+MESSAGE: "Message3"
+
+
+Datagram 4:  
+SOURCE: 194.17.60.1
+DESTINATION: 1.2.3.4
+LENGTH: 8
+MESSAGE: "Message4"
+
+
+
+
+
+WAN computer:     Name: w2   IP address: 1.1.1.125
+   Connections to servers: 
+      Server 1:   194.15.60.128
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+WAN computer:     Name: w3   IP address: 1.1.1.126
+   Connections to servers: 
+      Server 1:   194.15.60.128
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+WAN computer:     Name: w4   IP address: 1.1.1.127
+   Connections to servers: 
+      Server 1:   194.15.60.128
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+WAN computer:     Name: w5   IP address: 1.1.1.128
+   Connections to servers: 
+      Server 1:   194.15.60.128
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+WAN computer:     Name: w6   IP address: 1.1.1.129
+   Connections to servers:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+End of network.
+
+Press ENTER to continue:
+Number of tokens: 1
+token: halt	
+** Command HALT recognized
+
+Press ENTER to continue:
+That's all, folks.
